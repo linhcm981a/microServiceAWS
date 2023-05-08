@@ -30,7 +30,7 @@ printf "Completed.\n\n"
 cd ..
 
 printf "Installing productServices dependencies...\n"
-cd ./productServices
+cd ./productService
 npm install
 printf "Completed.\n\n"
 cd ..
