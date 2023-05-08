@@ -17,8 +17,8 @@ if [ ! -z "$CLOUD_SHELL" ]; then
   printf "Completed.\n\n"
 fi
 
-printf "Installing /microservice/back-end/gateway dependencies...\n"
-cd ./microservice/back-end/gateway
+printf "Installing /backend/back-end/gateway dependencies...\n"
+cd ./backend/back-end/gateway
 npm install
 printf "Completed.\n\n"
 cd ..
@@ -49,7 +49,7 @@ cd ..
 cd ..
 cd ..
 printf "Installing React app dependencies...\n"
-cd ./PhoneStore
+cd ./frontend
 npm install
 printf "Completed.\n\n"
 
