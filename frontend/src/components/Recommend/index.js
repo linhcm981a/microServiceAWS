@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from 'react';
-import Products from '~/components/Products';
-import * as productService from '~/services/productService';
-import * as ratingService from '~/services/ratingService';
+import Products from '../../components/Products';
+import * as productService from '../../services/productService';
+import * as ratingService from '../../services/ratingService';
 
 function Recommend() {
     const [products, setProducts] = useState([]);

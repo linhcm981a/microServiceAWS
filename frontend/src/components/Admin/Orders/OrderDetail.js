@@ -3,7 +3,7 @@ import classNames from 'classnames/bind';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faClose } from '@fortawesome/free-solid-svg-icons';
-import * as orderService from '~/services/orderService';
+import * as orderService from '../../../services/orderService';
 
 const cx = classNames.bind(styles);
 

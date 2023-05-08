@@ -2,11 +2,11 @@ import styles from './ProfileModal.module.scss';
 import classNames from 'classnames/bind';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import * as authService from '~/services/authService';
+import * as authService from '../../../services/authService';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { createAxios } from '~/createInstance';
-import { loginSuccess } from '~/redux/authSlice';
+import { createAxios } from '../../../createInstance';
+import { loginSuccess } from '../../../redux/authSlice';
 
 const cx = classNames.bind(styles);
 

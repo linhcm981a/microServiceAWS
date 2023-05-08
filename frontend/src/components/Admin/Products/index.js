@@ -3,7 +3,7 @@ import classNames from 'classnames/bind';
 import { Fragment, useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import * as productService from '~/services/productService';
+import * as productService from '../../../services/productService';
 import ProductModal from './ProductModal';
 
 const cx = classNames.bind(styles);

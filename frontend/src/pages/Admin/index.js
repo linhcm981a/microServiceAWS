@@ -1,11 +1,11 @@
 import styles from './Admin.module.scss';
 import classNames from 'classnames/bind';
 import { useNavigate, useParams } from 'react-router-dom';
-import Dashboard from '~/components/Admin/Dashboard';
-import Products from '~/components/Admin/Products';
-import Orders from '~/components/Admin/Orders';
-import Users from '~/components/Admin/Users';
-import Profile from '~/components/Admin/Profile';
+import Dashboard from '../../components/Admin/Dashboard';
+import Products from '../../components/Admin/Products';
+import Orders from '../../components/Admin/Orders';
+import Users from '../../components/Admin/Users';
+import Profile from '../../components/Admin/Profile';
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 

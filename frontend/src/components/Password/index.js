@@ -1,11 +1,11 @@
 import styles from './Password.module.scss';
 import classNames from 'classnames/bind';
 import { Fragment } from 'react';
-import * as authService from '~/services/authService';
+import * as authService from '../../services/authService';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { createAxios } from '~/createInstance';
-import { loginSuccess } from '~/redux/authSlice';
+import { createAxios } from '../../createInstance';
+import { loginSuccess } from '../../redux/authSlice';
 import { Link } from 'react-router-dom';
 const cx = classNames.bind(styles);
 

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import jwt_decode from 'jwt-decode';
-import httpRequest from '~/utils/httpRequest';
+import httpRequest from './utils/httpRequest';
 
 const refreshToken = async () => {
     try {

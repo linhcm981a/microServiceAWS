@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
-import Advertisement from '~/components/Advertisement';
-import Trademark from '~/components/Trademark';
+import Advertisement from '../../components/Advertisement';
+import Trademark from '../../components/Trademark';
 import classNames from 'classnames/bind';
 import styles from './Home.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faEnvelope, faHeadset, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-import Recommend from '~/components/Recommend';
+import Recommend from '../../components/Recommend';
 
 const cx = classNames.bind(styles);
 

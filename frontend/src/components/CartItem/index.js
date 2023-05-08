@@ -4,7 +4,7 @@ import { faMinus, faPlus, faXmarkCircle } from '@fortawesome/free-solid-svg-icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { changeQuantityCart, incrementQuantity, decrementQuantity, removeItem } from '~/redux/cartSlice';
+import { changeQuantityCart, incrementQuantity, decrementQuantity, removeItem } from '../../redux/cartSlice';
 const cx = classNames.bind(styles);
 
 function CartItem({ info }) {

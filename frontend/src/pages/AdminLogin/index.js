@@ -2,7 +2,7 @@ import styles from './AdminLogin.module.scss';
 import classNames from 'classnames/bind';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import * as authService from '~/services/authService';
+import * as authService from '../../services/authService';
 import { useNavigate } from 'react-router-dom';
 
 const cx = classNames.bind(styles);

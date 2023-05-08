@@ -1,7 +1,7 @@
 import styles from './Products.module.scss';
 import classNames from 'classnames/bind';
 import { useState } from 'react';
-import * as productService from '~/services/productService';
+import * as productService from '../../../services/productService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
 

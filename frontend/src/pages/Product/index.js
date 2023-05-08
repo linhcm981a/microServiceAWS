@@ -2,13 +2,13 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HeadlessTippy from '@tippyjs/react/headless';
 import classNames from 'classnames/bind';
-import Button from '~/components/Button1';
-import Products from '~/components/Products';
+import Button from '../../components/Button1';
+import Products from '../../components/Products';
 import styles from './Product.module.scss';
-import { Wrapper as PopperWrapper } from '~/components/Popper';
+import { Wrapper as PopperWrapper } from '../../components/Popper';
 import { useEffect, useState } from 'react';
 
-import * as productService from '~/services/productService';
+import * as productService from '../../services/productService';
 import {
     addColor,
     addMemory,
@@ -21,11 +21,11 @@ import {
     removePrice,
     removeRam,
     removeTrademark,
-} from '~/redux/productSlice';
+} from '../../redux/productSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import images from '~/assets/images';
+import images from '../../assets/images';
 import { Link } from 'react-router-dom';
-import * as ratingService from '~/services/ratingService';
+import * as ratingService from '../../services/ratingService';
 
 const cx = classNames.bind(styles);
 

@@ -1,8 +1,8 @@
 import styles from './Purchase.module.scss';
 import classNames from 'classnames/bind';
-import images from '~/assets/images';
+import images from '../../assets/images';
 import { useEffect, useState } from 'react';
-import * as orderService from '~/services/orderService';
+import * as orderService from '../../services/orderService';
 import { useSelector } from 'react-redux';
 
 const cx = classNames.bind(styles);

@@ -1,10 +1,10 @@
 import styles from './Users.module.scss';
 import classNames from 'classnames/bind';
 import { useEffect, useState } from 'react';
-import * as userService from '~/services/userService';
+import * as userService from '../../../services/userService';
 import { useDispatch, useSelector } from 'react-redux';
-import { createAxios } from '~/createInstance';
-import { loginSuccess } from '~/redux/authSlice';
+import { createAxios } from '../../../createInstance';
+import { loginSuccess } from '../../../redux/authSlice';
 
 const cx = classNames.bind(styles);
 

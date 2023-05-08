@@ -4,8 +4,8 @@ import classNames from 'classnames/bind';
 import { Fragment, useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
-import AddressModal from '~/components/AddressModal';
-import * as orderService from '~/services/orderService';
+import AddressModal from '../../components/AddressModal';
+import * as orderService from '../../services/orderService';
 import styles from './Checkout.module.scss';
 
 const cx = classNames.bind(styles);

@@ -1,7 +1,7 @@
 import styles from './AdminLayout.module.scss';
 import classNames from 'classnames/bind';
-import Sidebar from '~/components/Admin/Sidebar';
-import Header from '~/components/Admin/Header';
+import Sidebar from '../../components/Admin/Sidebar';
+import Header from '../../components/Admin/Header';
 
 const cx = classNames.bind(styles);
 

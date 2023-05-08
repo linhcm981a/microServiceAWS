@@ -1,18 +1,18 @@
-import config from '~/config';
+import config from '../config';
 
-import Cart from '~/pages/Cart';
-import Home from '~/pages/Home';
-import Admin from '~/pages/Admin';
-import Product from '~/pages/Product';
-import ProductDetail from '~/pages/ProductDetail';
-import Information from '~/pages/Information';
-import Checkout from '~/pages/Checkout';
-import AdminLogin from '~/pages/AdminLogin';
-import ForgotPassword from '~/pages/ForgotPassword';
-import ResetPassword from '~/pages/ResetPassword';
+import Cart from '../pages/Cart';
+import Home from '../pages/Home';
+import Admin from '../pages/Admin';
+import Product from '../pages/Product';
+import ProductDetail from '../pages/ProductDetail';
+import Information from '../pages/Information';
+import Checkout from '../pages/Checkout';
+import AdminLogin from '../pages/AdminLogin';
+import ForgotPassword from '../pages/ForgotPassword';
+import ResetPassword from '../pages/ResetPassword';
 
-import AdminLayout from '~/layouts/AdminLayout';
-import AdminLoginLayout from '~/layouts/AdminLoginLayout';
+import AdminLayout from '../layouts/AdminLayout';
+import AdminLoginLayout from '../layouts/AdminLoginLayout';
 
 const publishRoutes = [
     { path: config.routes.home, component: Home },

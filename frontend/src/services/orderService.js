@@ -1,5 +1,5 @@
-import { orderProduct } from '~/redux/cartSlice';
-import * as httpRequest from '~/utils/httpRequest';
+import { orderProduct } from '../redux/cartSlice';
+import * as httpRequest from '../utils/httpRequest';
 
 export const getAllOrder = async () => {
     try {

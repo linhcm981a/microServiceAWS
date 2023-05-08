@@ -11,8 +11,8 @@ import {
     updateStart,
     updateSuccess,
     updateFailed,
-} from '~/redux/authSlice';
-import * as httpRequest from '~/utils/httpRequest';
+} from '../redux/authSlice';
+import * as httpRequest from '../utils/httpRequest';
 
 export const register = async (email, name, password, dispatch) => {
     dispatch(registerStart());

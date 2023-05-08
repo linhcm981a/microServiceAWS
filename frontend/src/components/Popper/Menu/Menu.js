@@ -1,13 +1,13 @@
 import classNames from 'classnames/bind';
 import Tippy from '@tippyjs/react/headless';
 
-import { Wrapper as PopperWrapper } from '~/components/Popper';
+import { Wrapper as PopperWrapper } from '../../../components/Popper';
 import MenuItem from './MenuItem';
 import Header from './Header';
 import styles from './Menu.module.scss';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import * as authService from '~/services/authService';
+import * as authService from '../../../services/authService';
 
 const cx = classNames.bind(styles);
 

@@ -1,7 +1,7 @@
-import * as addressRequest from '~/utils/addressRequest';
-import * as searchProvincesRequest from '~/utils/searchProvincesRequest';
-import * as searchDistristsRequest from '~/utils/searchDistristsRequest';
-import * as searchWardsRequest from '~/utils/searchWardsRequest';
+import * as addressRequest from '../utils/addressRequest';
+import * as searchProvincesRequest from '../utils/searchProvincesRequest';
+import * as searchDistristsRequest from '../utils/searchDistristsRequest';
+import * as searchWardsRequest from '../utils/searchWardsRequest';
 
 export const getAddress = async () => {
     try {

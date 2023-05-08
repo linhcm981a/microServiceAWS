@@ -2,8 +2,8 @@ import { faCircleXmark, faClose, faSearch, faSpinner } from '@fortawesome/free-s
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import { useEffect, useRef, useState } from 'react';
-import { useDebounce } from '~/hooks';
-import * as addressService from '~/services/addressService';
+import { useDebounce } from '../../hooks';
+import * as addressService from '../../services/addressService';
 import styles from './AddressModal.module.scss';
 const cx = classNames.bind(styles);
 

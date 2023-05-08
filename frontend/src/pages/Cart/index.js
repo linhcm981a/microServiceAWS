@@ -1,7 +1,7 @@
 import styles from './Cart.module.scss';
 import classNames from 'classnames/bind';
-import images from '~/assets/images';
-import CartItem from '~/components/CartItem';
+import images from '../../assets/images';
+import CartItem from '../../components/CartItem';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 const cx = classNames.bind(styles);

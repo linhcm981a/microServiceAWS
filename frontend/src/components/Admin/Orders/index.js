@@ -1,7 +1,7 @@
 import styles from './Orders.module.scss';
 import classNames from 'classnames/bind';
 import { Fragment, useEffect, useState } from 'react';
-import * as orderService from '~/services/orderService';
+import * as orderService from '../../../services/orderService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import OrderDetail from './OrderDetail';

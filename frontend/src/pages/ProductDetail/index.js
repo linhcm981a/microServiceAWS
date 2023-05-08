@@ -13,11 +13,11 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
 
-import * as productService from '~/services/productService';
-import * as ratingService from '~/services/ratingService';
+import * as productService from '../../services/productService';
+import * as ratingService from '../../services/ratingService';
 import { useDispatch } from 'react-redux';
-import { addToCart } from '~/redux/cartSlice';
-import images from '~/assets/images';
+import { addToCart } from '../../redux/cartSlice';
+import images from '../../assets/images';
 import RatingModal from './RatingModal';
 
 const cx = classNames.bind(styles);

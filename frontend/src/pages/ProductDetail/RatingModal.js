@@ -1,6 +1,6 @@
 import styles from './RatingModal.module.scss';
 import classNames from 'classnames/bind';
-import * as ratingService from '~/services/ratingService';
+import * as ratingService from '../../services/ratingService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose, faStar } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';

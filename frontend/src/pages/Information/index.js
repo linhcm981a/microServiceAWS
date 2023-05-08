@@ -4,9 +4,9 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClipboardList, faPen, faUser } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
-import Profile from '~/components/Profile';
-import Password from '~/components/Password';
-import Purchase from '~/components/Purchase';
+import Profile from '../../components/Profile';
+import Password from '../../components/Password';
+import Purchase from '../../components/Purchase';
 import { useSelector } from 'react-redux';
 
 const cx = classNames.bind(styles);

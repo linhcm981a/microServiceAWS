@@ -4,7 +4,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useState } from 'react';
-import * as authService from '~/services/authService';
+import * as authService from '../../services/authService';
 
 const cx = classNames.bind(styles);
 

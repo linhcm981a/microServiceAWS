@@ -2,7 +2,7 @@ import styles from './ForgotPassword.module.scss';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import * as authService from '~/services/authService';
+import * as authService from '../../services/authService';
 import { useState } from 'react';
 
 const cx = classNames.bind(styles);

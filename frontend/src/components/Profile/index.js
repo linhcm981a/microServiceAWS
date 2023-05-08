@@ -2,9 +2,9 @@ import { Fragment, useEffect, useState } from 'react';
 import styles from './Profile.module.scss';
 import classNames from 'classnames/bind';
 import { useDispatch, useSelector } from 'react-redux';
-import { createAxios } from '~/createInstance';
-import { loginSuccess } from '~/redux/authSlice';
-import * as authService from '~/services/authService';
+import { createAxios } from '../../createInstance';
+import { loginSuccess } from '../../redux/authSlice';
+import * as authService from '../../services/authService';
 
 const cx = classNames.bind(styles);
 

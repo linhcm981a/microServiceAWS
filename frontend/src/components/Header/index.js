@@ -15,7 +15,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Search from '../Search';
 import { useEffect, useState } from 'react';
 import Menu from '../Popper/Menu';
-import * as authService from '~/services/authService';
+import * as authService from '../../services/authService';
 import { useDispatch, useSelector } from 'react-redux';
 const cx = classNames.bind(styles);
 
