@@ -71,6 +71,7 @@ if [ ! -z "$CLOUD_SHELL" ]; then
   printf "###############################################################################\n"
 fi
 
+cd ..
 
 printf "Start /backend/back-end/gateway dependencies...\n"
 cd ./backend/back-end/gateway
