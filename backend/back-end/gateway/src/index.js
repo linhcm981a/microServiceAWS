@@ -20,6 +20,6 @@ app.use('/product',proxy(process.env.PRODUCT_SERVICE_URL))
 app.use('/rating',proxy(process.env.RATING_SERVICE_URL))
 app.use('/order',proxy(process.env.ORDER_SERVICE_URL))
 
-app.listen(8001, () => {
+app.listen(8080, () => {
   console.log("API gateway is running...");
 });

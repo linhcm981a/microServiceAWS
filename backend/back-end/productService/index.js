@@ -21,7 +21,7 @@ mongoose
 const app = express();
 app.use(express.json());
 app.use(bodyParser.json({ limit: "50mb" }));
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:5000'];
+const allowedOrigins = ['http://localhost:3000', 'http://localhost:5000', 'http://demomobilephone.s3-website-ap-southeast-1.amazonaws.com'];
 
 app.use(cors({
   credentials: true,

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4c25172.css",
-    "main.js": "/static/js/main.1bc0dfa2.js",
+    "main.css": "/static/css/main.6ba60493.css",
+    "main.js": "/static/js/main.09322691.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/sofiapro-bold.woff2": "/static/media/sofiapro-bold.1d7186488612ac20891f.woff2",
     "static/media/Proxima-Nova-Bold.woff": "/static/media/Proxima-Nova-Bold.6cd7dcaa6293ecf61e80.woff",
@@ -18,12 +18,12 @@
     "static/media/messenger.svg": "/static/media/messenger.3f53627274f60083234a3c62d2fa25ae.svg",
     "static/media/telegram.svg": "/static/media/telegram.cde07c9377dba9f07c026faf7565c5ae.svg",
     "index.html": "/index.html",
-    "main.f4c25172.css.map": "/static/css/main.f4c25172.css.map",
-    "main.1bc0dfa2.js.map": "/static/js/main.1bc0dfa2.js.map",
+    "main.6ba60493.css.map": "/static/css/main.6ba60493.css.map",
+    "main.09322691.js.map": "/static/js/main.09322691.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4c25172.css",
-    "static/js/main.1bc0dfa2.js"
+    "static/css/main.6ba60493.css",
+    "static/js/main.09322691.js"
   ]
 }
