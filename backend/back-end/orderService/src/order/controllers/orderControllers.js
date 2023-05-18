@@ -14,7 +14,7 @@ const orderController = {
 
       if (user) {
         const userResponse = await axios.get(
-          console.log("errro >>>>>", userResponse)
+      
             `${process.env.USER_SERVICE_URL}/${user}`);
         if (userResponse.status !== 200) {
           return res.status(userResponse.status).json({ message: "Failed to get user data", error: userResponse.data });
