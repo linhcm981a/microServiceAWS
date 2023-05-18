@@ -23,16 +23,25 @@ const orderController = {
       }
       console.log(userData)
 
-      const productsData = []
+      const productsData = [];
       for (const product of products) {
-        const productResponse = await axios.get(console.log("errro >>>>>", productResponse)
-          `${process.env.PRODUCT_SERVICE_URL}/${product.id}`);
-        if (productResponse.status !== 200) {
-          return res.status(productResponse.status).json({ message: "Failed to get product data", error: productResponse.data });
+        let productResponse;
+        try {
+          productResponse = await axios.get(`${process.env.PRODUCT_SERVICE_URL}/${product.id}`);
+          if (productResponse.status !== 200) {
+            return res.status(productResponse.status).json({ message: "Failed to get product data", error: productResponse.data });
+          }
+          
+          if (productResponse.data !== null && product.quantity <= productResponse.data.quantity) {
+            productsData.push({ ...productResponse.data, quantityInOrder: product.quantity });
+          }
+        } catch (error) {
+          return res.status(500).json({ message: "Failed to get product data", error: error.message });
         }
-        productResponse.data !== null && product.quantity <= productResponse.data.quantity && productsData.push({ ...productResponse.data, quantityInOrder: product.quantity })
       }
-
+      
+      
+      
       const order = new Order({
         userId: userData?._id,
         products: productsData.map((productData) => ({
