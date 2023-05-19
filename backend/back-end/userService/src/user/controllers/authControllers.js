@@ -226,7 +226,7 @@ const authController = {
           pass: process.env.EMAIL_PASSWORD,
         },
       });
-      const resetPasswordUrl = `http://localhost:3000/users/resetpassword/${token}`;
+      const resetPasswordUrl = `${process.env.FRONTEND_URL}/users/resetpassword/${token}`;
 
       const mailOptions = {
         from: process.env.EMAIL_ADDRESS,
