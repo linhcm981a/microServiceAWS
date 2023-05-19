@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6ba60493.css",
-    "main.js": "/static/js/main.be8122d8.js",
+    "main.js": "/static/js/main.e1c29029.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/sofiapro-bold.woff2": "/static/media/sofiapro-bold.1d7186488612ac20891f.woff2",
     "static/media/Proxima-Nova-Bold.woff": "/static/media/Proxima-Nova-Bold.6cd7dcaa6293ecf61e80.woff",
@@ -19,11 +19,11 @@
     "static/media/telegram.svg": "/static/media/telegram.cde07c9377dba9f07c026faf7565c5ae.svg",
     "index.html": "/index.html",
     "main.6ba60493.css.map": "/static/css/main.6ba60493.css.map",
-    "main.be8122d8.js.map": "/static/js/main.be8122d8.js.map",
+    "main.e1c29029.js.map": "/static/js/main.e1c29029.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ba60493.css",
-    "static/js/main.be8122d8.js"
+    "static/js/main.e1c29029.js"
   ]
 }

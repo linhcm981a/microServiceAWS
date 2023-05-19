@@ -48,7 +48,7 @@ export const updateUser = async (axiosJWT, user, accessToken, dispatch, id) => {
     dispatch(updateStart());
     try {
         const res = await axiosJWT.put(
-            `user/auth/${id}`,
+            `/user/auth/${id}`,
             { ...user },
             {
                 headers: { token: `Bearer ${accessToken}` },
@@ -63,7 +63,7 @@ export const updateUser = async (axiosJWT, user, accessToken, dispatch, id) => {
 export const changePassword = async (axiosJWT, data, accessToken, id) => {
     try {
         const res = await axiosJWT.put(
-            `user/auth/changePassword/${id}`,
+            `/user/auth/changePassword/${id}`,
             { ...data },
             {
                 headers: { token: `Bearer ${accessToken}` },
